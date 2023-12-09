@@ -1,0 +1,56 @@
+{
+  "resourceType": "GMRoom",
+  "resourceVersion": "1.0",
+  "name": "rExampleGeneratedLevel_Fill",
+  "creationCodeFile": "",
+  "inheritCode": false,
+  "inheritCreationOrder": false,
+  "inheritLayers": false,
+  "instanceCreationOrder": [
+    {"name":"inst_C0A36517","path":"rooms/rExampleGeneratedLevel_Fill/rExampleGeneratedLevel_Fill.yy",},
+  ],
+  "isDnd": false,
+  "layers": [
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Compatibility_Instances_Depth_0","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C0A36517","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"LevelGenerator_Fill","path":"objects/LevelGenerator_Fill/LevelGenerator_Fill.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":112.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Compatibility_Background_0_bDitherA","animationFPS":15.0,"animationSpeedType":0,"colour":4294967295,"depth":2147483500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Compatibility_Colour","animationFPS":15.0,"animationSpeedType":0,"colour":4282571263,"depth":2147483600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+  ],
+  "parent": {
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
+  },
+  "parentRoom": null,
+  "physicsSettings": {
+    "inheritPhysicsSettings": false,
+    "PhysicsWorld": false,
+    "PhysicsWorldGravityX": 0.0,
+    "PhysicsWorldGravityY": 10.0,
+    "PhysicsWorldPixToMetres": 0.0153,
+  },
+  "roomSettings": {
+    "Height": 400,
+    "inheritRoomSettings": false,
+    "persistent": false,
+    "Width": 640,
+  },
+  "sequenceId": null,
+  "views": [
+    {"hborder":300,"hport":800,"hspeed":-1,"hview":400,"inherit":false,"objectId":null,"vborder":180,"visible":false,"vspeed":-1,"wport":1280,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":480,"hspeed":-1,"hview":480,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":640,"wview":640,"xport":0,"xview":0,"yport":0,"yview":0,},
+  ],
+  "viewSettings": {
+    "clearDisplayBuffer": true,
+    "clearViewBackground": false,
+    "enableViews": false,
+    "inheritViewSettings": false,
+  },
+  "volume": 1.0,
+}

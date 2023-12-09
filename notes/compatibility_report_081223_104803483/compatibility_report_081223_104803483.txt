@@ -1,0 +1,46 @@
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/scripts/roomdog_copy_room/roomdog_copy_room.gml
+Converted description /// @description roomdog_copy_room()
+String not found: ConversionLog_ConvertedString 11 "roomChunks\" "roomChunks\\"
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/scripts/roomdog_paste_room/roomdog_paste_room.gml
+Converted description /// @description roomdog_paste_room(room_or_filename, X, Y, FLIP_X_optional, FLIP_Y_optional)/// @param room_or_filename
+/// @param  X
+/// @param  Y
+/// @param  FLIP_X_optional
+/// @param  FLIP_Y_optional
+String not found: ConversionLog_ConvertedString 17 "roomChunks\" "roomChunks\\"
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/scripts/roomdog_get_room_width/roomdog_get_room_width.gml
+Converted description /// @description roomdog_get_room_width(room_index_OR_room_txt_file)/// @param room_index_OR_room_txt_file
+String not found: ConversionLog_ConvertedString 9 "roomChunks\" "roomChunks\\"
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/scripts/roomdog_get_room_height/roomdog_get_room_height.gml
+Converted description /// @description roomdog_get_room_height(room_index_OR_room_txt_file)/// @param room_index_OR_room_txt_file
+String not found: ConversionLog_ConvertedString 9 "roomChunks\" "roomChunks\\"
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/objects/RoomChunkManager/Create_0.gml
+Converted description /// @description init
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/objects/RoomChunkManager/Other_4.gml
+Converted description /// @description save rooms
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.messhof.roomDog_3bf86f9b/mvc/conv/1409962857_Room_Dog_8c232cae/mvc/objects/RoomChunkManager/Other_3.gml
+Converted description /// @description clean up
+
+Added compatibility script 'tile/tile_get_ids.gml'
+Added compatibility script 'tile/tile_get_x.gml'
+Added compatibility script 'tile/tile_get_y.gml'
+Added compatibility script 'tile/tile_get_top.gml'
+Added compatibility script 'tile/tile_get_width.gml'
+Added compatibility script 'tile/tile_get_depth.gml'
+Added compatibility script 'tile/tile_get_background.gml'
+Added compatibility script 'tile/tile_set_scale.gml'
+Added compatibility script 'tile/tile_get_height.gml'
+Added compatibility script 'tile/tile_add.gml'
+Added compatibility script 'tile/tile_get_left.gml'
+Added compatibility script 'action/action_current_room.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'

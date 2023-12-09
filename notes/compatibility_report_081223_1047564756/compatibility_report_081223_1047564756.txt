@@ -1,0 +1,146 @@
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/scripts/create_parallax_layer/create_parallax_layer.gml
+Converted description /// @description create_parallax_layer(image, x_follow, y_follow, x_speed, y_speed, depth, colour, alpha);/// @param image
+/// @param  x_follow
+/// @param  y_follow
+/// @param  x_speed
+/// @param  y_speed
+/// @param  depth
+/// @param  colour
+/// @param  alpha
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/scripts/stick_to/stick_to.gml
+Converted description /// @description stick_to(object, include_angle?)/// @param object
+/// @param  include_angle?
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/scripts/angle_approach/angle_approach.gml
+Converted description /// @description angle_approach(current, target, turn_speed)/// @param current
+/// @param  target
+/// @param  turn_speed
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/scripts/create_effect/create_effect.gml
+Converted description /// @description create_effect(x, y, sprite, animation_speed, hspeed, vspeed, colour, alpha)/// @param x
+/// @param  y
+/// @param  sprite
+/// @param  animation_speed
+/// @param  hspeed
+/// @param  vspeed
+/// @param  colour
+/// @param  alpha
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objCamera/Create_0.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Set variables
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objCamera/Step_2.gml
+Converted builtin - line 5: view_xview = target.x-half_wview -> __view_set( e__VW.XView, 0, target.x-half_wview )
+Converted builtin - line 6: view_yview = target.y-half_hview -> __view_set( e__VW.YView, 0, target.y-half_hview )
+Converted description /// @description Follow target
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objLevel/Create_0.gml
+Converted builtin - line 14: background_colour = choose(
+                    make_colour_rgb(240, 220, 160),
+                    make_colour_rgb(200, 230, 240),
+                    make_colour_rgb(200, 240, 200),
+                    make_colour_rgb(240, 180, 180),
+                    ) -> __background_set_colour( choose(
+                    make_colour_rgb(240, 220, 160),
+                    make_colour_rgb(200, 230, 240),
+                    make_colour_rgb(200, 240, 200),
+                    make_colour_rgb(240, 180, 180),
+                    ) )
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Create objects
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objLevel/Alarm_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Create enemies
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objLevel/KeyPress_82.gml
+Converted description /// @description Restart room
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEntity/Create_0.gml
+Converted description /// @description Set properties
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEntity/Destroy_0.gml
+Converted description /// @description Explode
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEntity/Step_2.gml
+Converted description /// @description Limit speed
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEnemyPlane/Alarm_0.gml
+Converted description /// @description Change boosting pattern
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objBullet/Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objBullet/Step_2.gml
+Converted description /// @description Decay & destroy
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objBullet/Collision_afae6e8a-b41e-49c7-b96e-a62c504af99a.gml
+Converted description /// @description Take damage
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEnemyBullet/Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEnemyBullet/Step_2.gml
+Converted description /// @description Decay & destroy
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objEnemyBullet/Collision_614eda94-53c3-452b-a428-777984727e4c.gml
+Converted description /// @description Take damage
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objParallaxLayer/Create_0.gml
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Set up
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objParallaxLayer/Step_2.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Move with view
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objParallaxLayer/Draw_0.gml
+Converted description /// @description Draw layer
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objTrail/Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objTrail/Step_2.gml
+Converted description /// @description Fade out
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objPlaneFire/Create_0.gml
+Converted description /// @description Set variables
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objPlaneFire/Step_2.gml
+Converted description /// @description Stick to object
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objPlaneFire/Other_7.gml
+Converted description /// @description Destroy
+
+Converting GML script: /tmp/GameMakerStudio2/GMS2TEMP/com.wlewis.dogfightengine_be408f68/mvc/conv/1418316525_DogFight_Aerial_Combat_Engine_33660f86/mvc/objects/objPiece/Create_0.gml
+Converted description /// @description Set variables
+
+Added compatibility script 'background/__background_set_colour.gml'
+Added compatibility script 'background/__background_get_colour_element.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/draw_background_tiled_ext.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_inherited.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
